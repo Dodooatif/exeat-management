@@ -25,13 +25,11 @@ form input{
   border-radius: 7px;
   color: white;
 }
-.card button{
+.pupil button{
   background-color: red;
-  width: 90px;
+  width: 100%;
   border-radius: 7px;
   color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 .bttn{
   justify-content: center;
@@ -44,9 +42,10 @@ form input{
   margin: 20px;
   background-color: teal;
   color: white;
+  justify-content: center;
 }
 .pupil:hover{
   cursor: crosshair;
   background-color: royalblue;
-  border-right: black;
+  border-right: 10px solid green;
 }
