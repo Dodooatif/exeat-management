@@ -9,7 +9,6 @@ form{
   margin: 20px;
   border: 1px solid tomato;
   width: 500px;
-  margin-left: 37%;
 }
 form input{
   padding: 10px 20px;
@@ -29,7 +28,6 @@ form input{
 .card button{
   background-color: red;
   width: 90px;
-  margin-left: 43%;
   border-radius: 7px;
   color: white;
   display: grid;
@@ -38,4 +36,17 @@ form input{
 .bttn{
   justify-content: center;
   width: 100px;
+}
+.pupil{
+  border: 2px solid;
+  width: 100%;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: teal;
+  color: white;
+}
+.pupil:hover{
+  cursor: crosshair;
+  background-color: royalblue;
+  border-right: black;
 }

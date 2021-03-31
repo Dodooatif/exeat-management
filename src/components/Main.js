@@ -9,10 +9,13 @@ function Main() {
         setShow(!show)
     }
     return (
-        <main>
-            <NavBar show={show} toggle={toggle}/>
+        <>
+        <NavBar show={show} toggle={toggle}/>
+        <main style={{display:"flex",justifyContent:"center", width:"100%"}}>
+
             {show && <AddStudents />}
         </main>
+        </>
     )
 }
 
