@@ -1,5 +1,5 @@
 body{
-  background-image: linear-gradient(to right, violet, cyan, blue);
+  background-image: linear-gradient(to right, rgb(31, 64, 55), rgb(153, 242, 200));
   margin: 0;
   padding: 0;
 }

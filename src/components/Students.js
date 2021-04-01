@@ -8,12 +8,12 @@ function Students() {
            {
                students.map(student => (
                    <div className="pupil">
-                       <h2>{student.name}</h2>
-                       <h3>{student.level}</h3>
-                       <h3>{student.date}</h3>
-                       <h3>{student.indexNo}</h3>
+                       <h2>NAME:  {student.name}</h2>
+                       <h3>LEVEL:  {student.level}</h3>
+                       <h3>DATE:  {student.date}</h3>
+                       <h3>INDEXNO:  {student.indexNo}</h3>
                        <button onClick={()=>dispatch({type:"DELETE", indexNo:student.indexNo})}>
-                           X
+                           CLOSE
                         </button>
                    </div>
                ))
